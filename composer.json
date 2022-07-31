@@ -22,5 +22,13 @@
         "psr-4": {
             "Techhelpinfo\\Contact\\": "src/"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Techhelpinfo\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
